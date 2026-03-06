@@ -2,7 +2,7 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:padding="30dp"
+    android:padding="40dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -13,59 +13,40 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Exercices de Musculation"
+            android:text="Inscription"
             android:textSize="28sp"
             android:textStyle="bold"
-            android:gravity="center"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <!-- Boutons muscles -->
-        <Button
-            android:text="Pectoraux"
+        <EditText
+            android:hint="Nom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <Button
-            android:text="Dos"
+        <EditText
+            android:hint="Prénom"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="Identifiant"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="Mot de passe"
+            android:inputType="textPassword"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
-            android:text="Biceps"
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:text="Triceps"
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:text="Épaules"
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:text="Avant-bras"
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:text="Abdos"
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:text="Ischio-fessiers"
-            android:layout_marginTop="15dp"
+            android:text="S'inscrire"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

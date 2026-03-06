@@ -3,11 +3,10 @@ package com.example.muscu;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ExerciceActivity extends AppCompatActivity {
-
+public class ConnexionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exercice);
+        setContentView(R.layout.activity_connexion);
     }
 }

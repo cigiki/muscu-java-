@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Page Exercices -->
+        <activity android:name=".ExerciceActivity" />
+        <activity android:name=".ConnexionInscriptionActivity"/>
+        <activity android:name=".ConnexionActivity"/>
+        <activity android:name=".InscriptionActivity"/>
     </application>
 
 </manifest>

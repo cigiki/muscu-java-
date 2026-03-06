@@ -17,14 +17,16 @@ public class MainActivity extends AppCompatActivity {
         btnExercice = findViewById(R.id.btnExercice);
         btnPlanning = findViewById(R.id.btnPlanning);
 
+        // bouton exercices
         btnExercice.setOnClickListener(v -> {
-            // Page exercices (à créer plus tard)
-            startActivity(new Intent(MainActivity.this, ExerciceActivity.class));
+            Intent intent = new Intent(MainActivity.this, ExerciceActivity.class);
+            startActivity(intent);
         });
 
+        // bouton planning
         btnPlanning.setOnClickListener(v -> {
-            // Page connexion inscription (à créer plus tard)
-            startActivity(new Intent(MainActivity.this, ConnexionInscriptionActivity.class));
+            Intent intent = new Intent(MainActivity.this, ConnexionInscriptionActivity.class);
+            startActivity(intent);
         });
     }
 }
