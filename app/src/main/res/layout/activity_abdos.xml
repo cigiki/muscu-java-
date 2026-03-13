@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Exercices Abdos"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Boutons exercices Abdos -->
+        <Button android:text="Crunch classique" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:text="Crunch incliné" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Crunch vélo" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Relevé de jambes" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Planche" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Planche latérale" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Sit-up" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Relevé de bassin" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Mountain climbers" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Russian twist" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Crunch sur ballon" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Planche avec lever de bras/jambes" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="V-sit" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Jackknife" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Crunch oblique" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Planche dynamique" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Hanging knee raise" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Hanging leg raise" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Crunch inversé" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Planche sur swiss ball" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

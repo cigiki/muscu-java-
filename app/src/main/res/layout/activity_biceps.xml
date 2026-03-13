@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Exercices Biceps"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Boutons exercices Biceps -->
+        <Button android:text="Curl barre" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:text="Curl haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl incliné" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl concentré" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl marteau" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl pupitre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl à la poulie basse" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl câble unilatéral" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl inversé barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl inversé haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl Z-bar" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl machine" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl avec élastique" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl spider" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl debout alterné" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl incliné poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl concentration poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl inversé poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl prise marteau poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl Scott" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

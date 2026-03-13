@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Exercices Avant-bras"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Boutons exercices Avant-bras -->
+        <Button android:text="Curl poignet barre" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:text="Curl poignet haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl inversé barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Curl inversé haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Extension poignet barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Extension poignet haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Farmer's walk" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Grip dynamomètre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Tennis ball squeeze" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Reverse curls machine" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Wrist roller" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Pinch grip" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Barbell holds" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Dumbbell holds" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Reverse curls poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Flexion avant-bras poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Extention avant-bras poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Barbell reverse wrist curl" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Dumbbell reverse wrist curl" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Grip trainer" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

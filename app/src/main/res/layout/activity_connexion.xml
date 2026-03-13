@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="40dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -21,11 +18,13 @@
             android:layout_height="wrap_content"/>
 
         <EditText
+            android:id="@+id/editTextIdentifiant"
             android:hint="Identifiant"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <EditText
+            android:id="@+id/editTextPassword"
             android:hint="Mot de passe"
             android:inputType="textPassword"
             android:layout_marginTop="20dp"
@@ -33,11 +32,11 @@
             android:layout_height="wrap_content"/>
 
         <Button
+            android:id="@+id/buttonConnexion"
             android:text="Se connecter"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-
 </ScrollView>

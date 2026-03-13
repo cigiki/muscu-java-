@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Exercices Épaules"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Boutons exercices Épaules -->
+        <Button android:text="Développé militaire barre" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:text="Développé militaire haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Élévations latérales haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Élévations frontales haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Oiseau haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Oiseau poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Développé Arnold" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Développé assis machine" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Shrugs haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Shrugs barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Développé debout barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Élévations poulie basse" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Élévations poulie haute" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Développé haltères assis" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Face pulls poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Oiseau machine" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Élévations frontales poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Développé nuque" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Élévations latérales assis" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button android:text="Développé machine convergente" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

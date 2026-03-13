@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:padding="30dp"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -20,60 +19,103 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            android:text="Développé couché"
-            android:textSize="20sp"
-            android:textStyle="bold"
+        <Button android:text="Développé couché barre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Développé couché haltères"
+            android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            android:text="4 séries de 10 répétitions"
-            android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="Pompes"
-            android:textSize="20sp"
-            android:textStyle="bold"
+        <Button android:text="Développé incliné barre"
+            android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            android:text="4 séries de 15 répétitions"
-            android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="Écarté haltères"
-            android:textSize="20sp"
-            android:textStyle="bold"
+        <Button android:text="Développé incliné haltères"
+            android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            android:text="3 séries de 12 répétitions"
-            android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="Dips"
-            android:textSize="20sp"
-            android:textStyle="bold"
+        <Button android:text="Développé décliné barre"
+            android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            android:text="3 séries de 10 répétitions"
-            android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
+        <Button android:text="Développé décliné haltères"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Pompes classiques"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Pompes inclinées"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Pompes déclinées"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Pompes serrées"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Dips pectoraux"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Écarté haltères banc plat"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Écarté haltères banc incliné"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Écarté haltères banc décliné"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Écarté à la poulie vis-à-vis"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Écarté poulie basse"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Écarté poulie haute"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Chest press machine"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Pec deck machine"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:text="Pullover haltère"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>

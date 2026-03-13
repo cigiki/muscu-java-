@@ -22,18 +22,22 @@
             android:layout_height="wrap_content"/>
 
         <!-- Boutons muscles -->
+        <!-- Boutons muscles -->
         <Button
+            android:id="@+id/btnPectoraux"
+            android:layout_marginTop="15dp"
             android:text="Pectoraux"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
         <Button
             android:text="Dos"
             android:layout_marginTop="15dp"
+            android:id="@+id/btnDos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
+            android:id="@+id/btnBiceps"
             android:text="Biceps"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
@@ -41,30 +45,35 @@
 
         <Button
             android:text="Triceps"
+            android:id="@+id/btnTriceps"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
             android:text="Épaules"
+            android:id="@+id/btnEpaules"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
             android:text="Avant-bras"
+            android:id="@+id/btnAvantBras"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
             android:text="Abdos"
+            android:id="@+id/btnAbdos"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
             android:text="Ischio-fessiers"
+            android:id="@+id/btnIschioFessiers"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
