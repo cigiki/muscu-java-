@@ -95,7 +95,7 @@ public class ConnexionActivity extends AppCompatActivity {
                 SharedPreferences prefs = getSharedPreferences("app_prefs", MODE_PRIVATE);
                 prefs.edit().putString("jwt_token", token).apply();
 
-                Toast.makeText(ConnexionActivity.this, "Connexion réussie !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ConnexionActivity.this, "Connexion réussie ! "+ token, Toast.LENGTH_SHORT).show();
 
                 // Ici tu peux rediriger vers ton activité principale
                 // startActivity(new Intent(ConnexionActivity.this, MainActivity.class));
@@ -118,7 +118,7 @@ public class ConnexionActivity extends AppCompatActivity {
                 } catch (Exception e){
                     e.printStackTrace();
                     Toast.makeText(ConnexionActivity.this, "Erreur réseau avec reponse", Toast.LENGTH_SHORT).show();
-                    Log.e("MUSCU","Problème réseau (reponse reçue)",error);
+                    Log.e("MUSCU","Problème réseau (reponse reçue: "+new String(error.networkResponse.data)+")",error);
                 }
             } else {
                 Toast.makeText(ConnexionActivity.this, "Erreur réseau sans reponse", Toast.LENGTH_SHORT).show();

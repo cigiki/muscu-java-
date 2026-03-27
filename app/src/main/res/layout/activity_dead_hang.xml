@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dead Hang (Suspension passive)"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le Dead Hang est un exercice de suspension à la barre de traction où le corps reste complètement détendu, les épaules et les bras étant entièrement étirés. Cet exercice simple mais efficace permet de renforcer la force de préhension, d'améliorer la mobilité des épaules, de décompresser la colonne vertébrale et de développer l'endurance musculaire des avant-bras et des mains. Idéal pour les débutants comme pour les athlètes confirmés, c'est un exercice de base incontournable pour progresser en traction."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/gifDeadHang"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="Animation dead hang suspension passive"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

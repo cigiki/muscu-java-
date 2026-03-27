@@ -38,6 +38,17 @@
         <activity android:name=".ConnexionInscriptionActivity"/>
         <activity android:name=".ConnexionActivity"/>
         <activity android:name=".InscriptionActivity"/>
+        <activity android:name=".TractionsAnneauxActivity" />
+        <activity android:name=".DeadHangActivity" />
+        <activity android:name=".MuscleUpActivity" />
+        <activity android:name=".TractionActivity" />
+        <activity android:name=".TirageHorizontalActivity" />
+        <activity android:name=".RowingBarreActivity" />
+        <activity android:name=".ShrugBarreActivity" />
+        <activity android:name=".PullOverActivity" />
+        <activity android:name=".TractionSupinationActivity" />
+        <activity android:name=".RowingHaltereUnBrasActivity" />
+        <activity android:name=".DeadHangActivity" />
 
     </application>
 

@@ -12,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!-- Titre -->
         <TextView
+            android:id="@+id/textViewTitre"
             android:text="Inscription"
             android:textSize="28sp"
             android:textStyle="bold"
@@ -20,31 +22,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <!-- Nom -->
         <EditText
+            android:id="@+id/editTextNom"
             android:hint="Nom"
+            android:inputType="textPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <!-- Prénom -->
         <EditText
+            android:id="@+id/editTextPrenom"
             android:hint="Prénom"
+            android:inputType="textPersonName"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <!-- Identifiant -->
         <EditText
+            android:id="@+id/editTextIdentifiant"
             android:hint="Identifiant"
+            android:inputType="text"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <!-- Mot de passe -->
         <EditText
+            android:id="@+id/editTextPassword"
             android:hint="Mot de passe"
             android:inputType="textPassword"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <!-- Bouton -->
         <Button
+            android:id="@+id/buttonInscription"
             android:text="S'inscrire"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"

@@ -1,45 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:padding="20dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="20dp">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Exercices Dos"
             android:textSize="28sp"
             android:textStyle="bold"
-            android:gravity="center"
-            android:layout_marginBottom="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_marginBottom="30dp" />
 
-        <!-- Boutons exercices Dos -->
-        <Button android:text="Tractions pronation" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <Button android:text="Tractions supination" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tractions prise serrée" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tirage horizontal barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tirage horizontal poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tirage vertical prise large" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tirage vertical prise serrée" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Rowing barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Rowing haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Rowing machine" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Rowing poulie basse" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Rowing unilatéral haltère" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Soulevé de terre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Hyperextensions" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Pull-over poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Shrugs haltères" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Shrugs barre" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Face pulls poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tirage unilatéral poulie" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
-        <Button android:text="Tractions assistées machine" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_tractions_anneaux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tractions aux anneaux" />
+
+        <Button
+            android:id="@+id/btn_dead_hang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dead Hang (suspension passive)" />
+
+        <Button
+            android:id="@+id/btn_muscle_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Muscle-up" />
+
+        <Button
+            android:id="@+id/btn_traction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Traction" />
+
+        <Button
+            android:id="@+id/btn_tirage_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tirage horizontal à la poulie" />
+
+        <Button
+            android:id="@+id/btn_rowing_barre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rowing barre" />
+
+        <Button
+            android:id="@+id/btn_shrug_barre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Shrug barre" />
+
+        <Button
+            android:id="@+id/btn_pull_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pull-over assis à la machine" />
+
+        <Button
+            android:id="@+id/btn_traction_supination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Traction supination" />
+
+        <Button
+            android:id="@+id/btn_rowing_haltere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rowing barre" />
 
     </LinearLayout>
 

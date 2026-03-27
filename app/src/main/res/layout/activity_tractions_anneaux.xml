@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tractions aux anneaux"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Les tractions aux anneaux sont une variante instable et plus technique des tractions traditionnelles à la barre fixe. Grâce à la liberté de mouvement des anneaux, chaque répétition demande un effort supplémentaire de stabilisation, sollicitant davantage les muscles stabilisateurs, les épaules et les gainages. Cet exercice permet un mouvement plus naturel pour les poignets et les coudes, réduisant les tensions articulaires tout en augmentant l'activation musculaire."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/gifExercice"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="Animation traction aux anneaux"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

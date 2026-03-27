@@ -37,10 +37,15 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 
+
     // VOLLEY
     implementation(libs.volley)
+    // AJOUTEZ CECI
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }

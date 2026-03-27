@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tractions"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La traction est un exercice de musculation fondamental qui consiste à soulever son propre poids en s'accrochant à une barre fixe. Ce mouvement sollicite principalement les muscles du dos (grand dorsal, grand rond), les biceps et les avant-bras. C'est un exercice polyvalent qui peut être réalisé en pronation (paumes vers l'avant), en supination (paumes vers soi, aussi appelé chin-up) ou en prise neutre. Les tractions développent une force fonctionnelle exceptionnelle, une largeur de dos impressionnante et sont considérées comme l'un des meilleurs exercices pour évaluer la force relative du haut du corps."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/gifTraction"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="Animation traction musculation dos"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

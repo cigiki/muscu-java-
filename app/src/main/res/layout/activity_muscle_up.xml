@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muscle Up"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le Muscle Up est un exercice de callisthénie avancé qui combine une traction explosive et un dip au-dessus de la barre ou des anneaux. Il permet de passer de la position suspendue à la position de support en une seule mouvement fluide. Cet exercice sollicite intensément les dorsaux, les biceps, les épaules, les triceps et les pectoraux. Il requiert une excellente force relative, une bonne coordination et une maîtrise parfaite du kipping (balancement) pour ceux qui utilisent l'élan. C'est un exercice emblématique qui symbolise la maîtrise de son poids du corps."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/gifMuscleUp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="Animation muscle up"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

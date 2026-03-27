@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shrug barre"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le shrug à la barre est un exercice ciblant principalement les muscles trapèzes. Il consiste à hausser les épaules verticalement en maintenant une barre dans les mains, bras tendus. Ce mouvement isole efficacement la partie supérieure des trapèzes, développant volume et épaisseur dans cette zone. Il peut être réalisé avec différentes prises (pronation, supination) et charges, permettant une progression constante. Un bon contrôle et une amplitude complète sont essentiels pour maximiser la contraction musculaire et éviter les blessures aux cervicales."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/gifShrugBarre"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="Animation shrug barre"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

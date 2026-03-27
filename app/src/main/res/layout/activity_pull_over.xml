@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pull over"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le pull over est un exercice polyvalent qui sollicite à la fois le grand dorsal et les pectoraux. Réalisé avec un haltère ou une barre allongé sur un banc, il consiste à passer la charge derrière la tête en gardant les bras légèrement fléchis. Ce mouvement permet de développer l'épaisseur du dos et d'ouvrir la cage thoracique. C'est un exercice complet qui améliore la mobilité des épaules et la stabilité du tronc. Il est important de contrôler la charge et de maintenir une bonne posture pour protéger les articulations."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/gifPullOver"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="Animation pull over"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
