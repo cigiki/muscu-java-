@@ -7,3 +7,4 @@ public class Config {
     // Si vous utilisez un appareil physique, décommentez et utilisez l'IP de votre PC
     // public final static String baseUrl = "http://192.168.1.x/~resul.karatas/muscu/public";
 }
+

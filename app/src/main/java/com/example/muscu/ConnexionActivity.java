@@ -18,7 +18,7 @@ import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
 
 import org.json.JSONObject;
-
+import android.content.Intent;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -79,6 +79,8 @@ public class ConnexionActivity extends AppCompatActivity {
                 params.put("mdp", password);
                 return params;
             }
+
+
         };
         // ⚡ Ajout de la requête à la queue Volley
         rq.add(stringRequest);
@@ -90,15 +92,21 @@ public class ConnexionActivity extends AppCompatActivity {
             try {
                 JSONObject jsonObject = new JSONObject(reponse);
                 String token = jsonObject.getString("token"); // Récupérer le JWT
+                int userId = jsonObject.getInt("user_id"); // récupère l'user_id
 
                 // Stocker le JWT dans SharedPreferences
                 SharedPreferences prefs = getSharedPreferences("app_prefs", MODE_PRIVATE);
                 prefs.edit().putString("jwt_token", token).apply();
+                prefs.edit().putInt("user_id", userId).apply(); // sauvegarde l'user_id
 
                 Toast.makeText(ConnexionActivity.this, "Connexion réussie ! "+ token, Toast.LENGTH_SHORT).show();
 
                 // Ici tu peux rediriger vers ton activité principale
                 // startActivity(new Intent(ConnexionActivity.this, MainActivity.class));
+                Intent intent = new Intent(ConnexionActivity.this, PlanningActivity.class);
+
+                startActivity(intent);
+                finish();
 
             } catch (Exception e) {
                 e.printStackTrace();

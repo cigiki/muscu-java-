@@ -49,6 +49,7 @@
         <activity android:name=".TractionSupinationActivity" />
         <activity android:name=".RowingHaltereUnBrasActivity" />
         <activity android:name=".DeadHangActivity" />
+        <activity android:name=".PlanningActivity" />
 
     </application>
 
