@@ -48,8 +48,12 @@
         <activity android:name=".PullOverActivity" />
         <activity android:name=".TractionSupinationActivity" />
         <activity android:name=".RowingHaltereUnBrasActivity" />
-        <activity android:name=".DeadHangActivity" />
         <activity android:name=".PlanningActivity" />
+        <activity android:name=".DeveloppeCoucheBarreActivity" />
+        <activity android:name=".DeveloppeCoucheHalteresActivity" />
+        <activity android:name=".EcartePoulieVisAVisActivity" />
+        <activity android:name=".CurlBarreActivity" />
+        <activity android:name=".RockyPullUpActivity" />
 
     </application>
 
